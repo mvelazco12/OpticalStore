@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutregister"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgregister"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvbienvenido1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Hola!"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:gravity="end"
+        android:textColor="#FFFFFF">
+    </TextView>
+
+    <TextView
+        android:id="@+id/crearcuetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvbienvenido1"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:text="Crea una cuenta"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/containerbonito"
+        android:elevation="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:paddingTop="30dp"
+        android:paddingRight="35dp"
+        android:paddingBottom="70dp">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nombreregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/cedularegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cédula">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/correoregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contrasenaregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/registrarbttn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#151F41"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="REGISTRARSE"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginLayout"
+        android:id="@+id/backbutn"
+        android:text="¿Ya tienes una cuenta? Iniciar sesión"
+        android:textColor="#000000"
+        android:paddingLeft="60dp"
+        android:background="?android:attr/selectableItemBackground">
+
+    </Button>
+
+</RelativeLayout>
+

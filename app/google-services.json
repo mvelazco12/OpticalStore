@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482348254350",
+    "project_id": "oftalmol-3dc7c",
+    "storage_bucket": "oftalmol-3dc7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482348254350:android:b13e676d0b16afbbb135df",
+        "android_client_info": {
+          "package_name": "com.mateovelazco.projekt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvv9sDujkY9ypvnwM_pCoI9IbT6GsGbrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

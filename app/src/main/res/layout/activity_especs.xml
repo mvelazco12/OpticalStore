@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Especs"
+    android:background="@drawable/bgespecs">
+
+    <androidx.cardview.widget.CardView
+        app:layout_constraintWidth_percent=".8"
+        android:id="@+id/cv12"
+        android:layout_width="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="30dp"
+        android:elevation="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent=".7"
+        android:layout_height="0dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/bottondate"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:gravity="center"
+                    app:cornerRadius="5dp"
+                    android:text="SELECCIONE UNA FECHA"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="normal">
+
+                </com.google.android.material.button.MaterialButton>
+
+                <TextView
+                    android:id="@+id/tvdate"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textSize="30dp"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                    tools:layout_editor_absoluteX="0dp">
+
+                </TextView>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til0"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:hint="OJO">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/atc0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til1"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:hint="ESFERA">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/atc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til2"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:hint="CILINDRO">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/atc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til3"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:hint="EJE">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/atc3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til4"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:hint="ADICIÓN">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/atc4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til8"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:hint="FILTRO">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/atc8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til5"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:hint="A V">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/atc5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til6"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_marginRight="15dp"
+                    android:hint="TIPO LENTE">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/atc6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center|bottom"
+        app:layout_constraintTop_toBottomOf="@+id/cv12"
+        android:text="GUARDAR"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:backgroundTint="#A776FF"
+        android:fontFamily="sans-serif-condensed-light">
+
+    </Button>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

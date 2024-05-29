@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?android:attr/colorBackground"
+    tools:context=".informacion">
+
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Información de ZarkVisión"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"/>
+
+    <!-- Services Section -->
+    <TextView
+        android:id="@+id/services_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nuestros Servicios"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        app:layout_constraintTop_toBottomOf="@id/header_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="16dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/services_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ofrecemos una amplia gama de servicios ópticos: \n- Valoración de segmento anterior y posterior \n- Dx de patologias de retina y glaucoma\n- Extracción de cuerpos extraños\n- Examén optométrico y patológico\n- Monturas oftalmicas (Niños y adultos)"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintTop_toBottomOf="@id/services_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
+        android:layout_margin="15dp"/>
+
+    <!-- Location Section -->
+    <TextView
+        android:id="@+id/location_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Datos de contacto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        app:layout_constraintTop_toBottomOf="@id/services_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="16dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/location_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Contactanos en:\nzarkvisionoptica@gmail.com\n+57 32929384930"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintTop_toBottomOf="@id/location_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
+        android:layout_margin="15dp"/>
+
+    <!-- Opening Hours Section -->
+    <TextView
+        android:id="@+id/hours_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Horario de Atención"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        app:layout_constraintTop_toBottomOf="@id/location_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="16dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/hours_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lunes a Viernes: 9:00 AM - 6:00 PM\nSábado: 9:00 AM - 1:00 PM\nDomingo: Cerrado\nC.C la isla, Sdo piso, Local 10-08"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintTop_toBottomOf="@id/hours_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
+        android:layout_margin="15dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hours_content" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

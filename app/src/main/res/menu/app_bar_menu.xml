@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_item_product"
+        android:title="@string/agregar_item"/>
+    <item
+
+        android:id="@+id/item_add_category"
+        android:title="@string/agregar_category"
+        />
+
+    <item
+        android:id="@+id/item_cita"
+        android:title="Nueva cita"/>
+
+
+</menu>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ZARKVISION</string>
+    <string name="label">ESFERA </string>
+    <string name="teclabel">I.C\n</string>
+    <string name="teclabel1">CILINDRO\n</string>
+    <string name="table_layout_4_open">No sé\n</string>
+    <string name="agregar_item">Nueva fórmula\n</string>
+    <string name="agregar_category">Menú principal\n</string>
+    <string name="add_formula" />
+    <string name="name">Nombre</string>
+    <string name="msg_name">Digite el nombre</string>
+    <string name="description">Descripción</string>
+    <string name="price">Precio</string>
+    <string name="url_imagen">Url imagen</string>
+    <string name="msg_description">Digite la descripcion</string>
+    <string name="msg_price">Digite Precio</string>
+    <string name="digite_la_url_de_la_imagen">Digite la Url de la imagen</string>
+    <string name="agregar">Agregar</string>
+    <string name="computador_asus">Computador ASUS</string>
+    <string name="_13_000_000_00">$ 13.000.000,00</string>
+    <string name="bienvenidos">Bienvenidos!</string>
+    <string name="agregar_product">Agregar Producto</string>
+    <string name="agregar_categoria">Agregar Categoria</string>
+    <string name="categories">Categorias</string>
+    <string name="nueva_categoria">Nueva Categoria</string>
+    <string name="txt_color">Color</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="txt_create">Crear</string>
+    <string name="por_favor_ingrese_la_url_de_la_imagen">Por favor ingrese la URL de la imagen</string>
+    <string name="por_favor_ingrese_el_nombre">por favor ingrese el nombre</string>
+    <string name="producto">Producto</string>
+    <string name="login">LOGIN\n</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_principal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="414dp"
+        android:layout_height="374dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="880dp"
+            android:layout_height="500dp"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginTop="-110dp"
+            app:srcCompat="@drawable/menu_img" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="411dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="35dp"
+            android:text="¿Cómo te ayudamos hoy?"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="140dp"
+                android:backgroundTint="#536AD4"
+                android:background="@drawable/shape_button_menu_1"
+                android:layout_height="160dp"
+                android:layout_marginHorizontal="35dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/comprarp" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="140dp"
+                android:backgroundTint="#A5B3E9"
+                android:background="@drawable/shape_button_menu_1"
+                android:layout_height="160dp"
+                android:layout_marginHorizontal="10dp"
+                android:padding="15dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/citas" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="140dp"
+                android:backgroundTint="#796AC9"
+                android:background="@drawable/shape_button_menu_1"
+                android:layout_height="160dp"
+                android:layout_marginHorizontal="35dp"
+                android:padding="15dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/formulsas" />
+
+            <ImageButton
+                android:id="@+id/imageButtoninfo"
+                android:layout_width="140dp"
+                android:backgroundTint="#AE6BB3"
+                android:background="@drawable/shape_button_menu_1"
+                android:layout_height="160dp"
+                android:layout_marginHorizontal="10dp"
+                android:padding="18dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/infomacion" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
