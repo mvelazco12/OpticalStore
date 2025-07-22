@@ -6,7 +6,7 @@ This project is an Android application developed in Java using Android Studio fo
 - Book appointments
 - Save their medical prescription (formulas)
 
-> 🛍️ **Note:** The purchasing feature (payment and checkout) is currently under development.
+>  **Note:** The purchasing feature (payment and checkout) is currently under development.
 
 ---
 
@@ -35,12 +35,12 @@ To run this project locally:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/your-optical-store-app.git
+   git clone https://github.com/mvelazco12/OpticalStore.git
 
 2. Open the project in Android Studio.
 
 3. Connect an emulator or real device.
 
-4. lick Run to build and launch the app.
+4. Click Run to build and launch the app.
 
    
